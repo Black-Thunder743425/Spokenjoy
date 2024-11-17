@@ -1,0 +1,137 @@
+.navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #ffffff 77%, #fd3671);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .navbar2 .logo2 {
+    background-image: url(../includes/logo.png);
+    background-size: contain; /* Adjust image to fit within the container */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+    background-position: center; /* Center the image */
+    height: 50px; /* Set a fixed height */
+    width: 150px; /* Set a fixed width */
+  }
+  
+  
+  .navbar2 ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar2 a {
+    color: #ff579d;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .hero-section {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #fd3671, #ffffff);
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    animation: fadeIn 2s ease-in-out;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    animation: slideUp 2s ease-in-out;
+  }
+  
+  .content-section {
+    padding: 40px 20px;
+    background: #fff;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease;
+  }
+  
+  .content-section h2 {
+    font-weight: 400;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .content-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #00bfff;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007bff;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar2 ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .hero-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    .content-section {
+      width: 90%;
+    }
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
