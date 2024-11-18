@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','studentmsdb');
+define('DB_HOST','sql12.freesqldatabase.com');
+define('DB_USER','sql12745418');
+define('DB_PASS','RTZPECnB9M');
+define('DB_NAME','sql12745418');
 // Establish database connection.
 try
 {
