@@ -25,13 +25,13 @@
                 </div>
             </div>
             <div class="container px-0">
-                <nav class="navbar navbar-light navbar-expand-xl "><a href="index.php"><img src="includes/logo.png" alt="Logo" style="max-width: 200px; height: 60px; display: block;"></a>
+                <nav class="navbar navbar-light navbar-expand-xl "><a href="index.html"><img src="includes/logo.png" alt="Logo" style="max-width: 200px; height: 60px; display: block;"></a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-auto">
-                            <a href="index.php" class="nav-item nav-link active">Home</a>
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a href="about.php" class="nav-item nav-link">About</a>
                             <a href="contact.php" class="nav-item nav-link">Contact</a>
                             <div class="nav-item dropdown">
