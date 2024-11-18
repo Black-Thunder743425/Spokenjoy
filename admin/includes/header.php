@@ -1,6 +1,6 @@
  <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="navbar-brand-wrapper d-flex align-items-center">
-        <a href="index.php"><img src="../includes/logo.png" alt="Logo" style="max-width: 200px; height: 70px; display: block;"></a>
+        <a href="index.html"><img src="../includes/logo.png" alt="Logo" style="max-width: 200px; height: 70px; display: block;"></a>
           <a class="navbar-brand brand-logo-mini" href="dashboard.php"><img src="images/logo-mini.svg" alt="logo" /></a>
         </div><?php
          $aid= $_SESSION['sturecmsaid'];
